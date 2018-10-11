@@ -1,0 +1,6 @@
+#!/bin/bash
+
+function ip() {
+    curl ipinfo.io/$1
+    echo ''
+}
