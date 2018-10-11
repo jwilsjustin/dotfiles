@@ -1,0 +1,2 @@
+alias ll="ls -lahG"
+alias chmox='chmod -x'
