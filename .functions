@@ -4,3 +4,9 @@ function ip() {
     curl ipinfo.io/$1
     echo ''
 }
+
+# find shorthand
+# https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
+function f() {
+    find . -name "$1" 2>&1 | grep -v 'Permission denied'
+}
