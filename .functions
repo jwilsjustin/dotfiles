@@ -5,6 +5,14 @@ function ip() {
     echo ''
 }
 
+# See here: https://stackoverflow.com/questions/10610327/delete-all-local-git-branches/26152574#26152574
+function git-delete-merged-branches() {
+  for mergedBranch in $(git for-each-ref --format '%(refname:short)' --merged HEAD refs/heads/)
+  do
+    git branch -d ${mergedBranch}
+  done
+}
+
 # find shorthand
 # https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
 function f() {
