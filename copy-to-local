@@ -1,0 +1,5 @@
+#!/bin/bash
+
+for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.zshrc}; do
+  cp $file ~/
+done

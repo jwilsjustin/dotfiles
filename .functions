@@ -1,20 +1,24 @@
 #!/bin/bash
 
 function ip() {
-    curl ipinfo.io/$1
-    echo ''
+  curl ipinfo.io/$1
+  echo ''
 }
 
 # See here: https://stackoverflow.com/questions/10610327/delete-all-local-git-branches/26152574#26152574
 function git-delete-merged-branches() {
-    for mergedBranch in $(git for-each-ref --format '%(refname:short)' --merged HEAD refs/heads/)
-    do
-        git branch -d ${mergedBranch}
-    done
+  for mergedBranch in $(git for-each-ref --format '%(refname:short)' --merged HEAD refs/heads/)
+  do
+    git branch -d ${mergedBranch}
+  done
+}
+
+ruby-server() {
+  ruby -run -e httpd $1 -p 5000
 }
 
 # find shorthand
 # https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
 function f() {
-    find . -name "$1" 2>&1 | grep -v 'Permission denied'
+  find . -name "$1" 2>&1 | grep -v 'Permission denied'
 }

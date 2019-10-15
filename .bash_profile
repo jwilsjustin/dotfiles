@@ -1,6 +1,3 @@
-PS1="\u: \W $ "
+# currently unused in favor of zsh (.zshrc)
 
-for file in ~/.{exports,aliases,functions}; do
-    [ -r "$file" ] && source "$file"
-done
-unset file
+PS1="\u: \W $ "
