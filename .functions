@@ -14,7 +14,8 @@ function git-delete-merged-branches() {
 }
 
 function ruby-server() {
-  ruby -run -e httpd $1 -p 5000
+  dir=${1:="."}
+  ruby -run -e httpd $dir -p 5000
 }
 
 # find shorthand
