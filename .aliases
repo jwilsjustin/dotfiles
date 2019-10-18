@@ -2,6 +2,5 @@
 
 alias ll="ls -lahG"
 alias chmox='chmod -x'
-alias dotfiles="$EDITOR ~/Sites/dotfiles"
 alias notes="$EDITOR ~/Documents/notes"
 alias g="git"
