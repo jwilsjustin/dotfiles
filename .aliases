@@ -4,3 +4,4 @@ alias ll="ls -lahG"
 alias chmox='chmod -x'
 alias notes="$EDITOR ~/Documents/notes"
 alias g="git"
+alias rspec-no-system='rspec --exclude-pattern "spec/system/**/*"'
