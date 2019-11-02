@@ -1,8 +1,26 @@
 #!/bin/bash
 
-function ip() {
-  curl ipinfo.io/$1
-  echo ''
+function dotfiles() {
+  cd ~/dotfiles
+  subl ~/dotfiles
+}
+
+# find shorthand
+# https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
+function f() {
+  find . -name "$1" 2>&1 | grep -v 'Permission denied'
+}
+
+# https://github.com/ryanwood/dotfiles/blob/d25fff3f5bb22cfaee4aea7eb8aa122621b8b7f7/zsh/functions/g
+#
+# No arguments: `git status`
+# With arguments: acts like `git`
+function g() {
+  if [[ $# -gt 0 ]]; then
+    git "$@"
+  else
+    git status -sb
+  fi
 }
 
 # See here: https://stackoverflow.com/questions/10610327/delete-all-local-git-branches/26152574#26152574
@@ -13,18 +31,12 @@ function git-delete-merged-branches() {
   done
 }
 
+function ip() {
+  curl ipinfo.io/$1
+  echo ''
+}
+
 function ruby-server() {
   dir=${1:="."}
   ruby -run -e httpd $dir -p 5000
-}
-
-# find shorthand
-# https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
-function f() {
-  find . -name "$1" 2>&1 | grep -v 'Permission denied'
-}
-
-function dotfiles(){
-  cd ~/Sites/dotfiles
-  subl ~/Sites/dotfiles
 }
