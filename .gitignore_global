@@ -1,0 +1,5 @@
+my_scripts/*
+Procfile.dev
+dump.rdb
+.env.development.local
+.pryrc
