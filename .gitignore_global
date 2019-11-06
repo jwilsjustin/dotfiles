@@ -1,5 +1,5 @@
 my_scripts/*
-Procfile.dev
-dump.rdb
+.DS_Store
 .env.development.local
-.pryrc
+dump.rdb
+Procfile.dev
