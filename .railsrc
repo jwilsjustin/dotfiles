@@ -1,0 +1,4 @@
+--skip-spring
+--no-helper
+--no-assets
+--no-view-specs
