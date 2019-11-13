@@ -5,7 +5,8 @@ alias cat="bat" # must 'brew install bat' first
 alias chmox="chmod -x"
 alias notes="$EDITOR ~/Documents/notes"
 alias gl="git log"
-alias rspec-no-system='bundle exec rspec --exclude-pattern "spec/system/**/*"'
+alias rspec-no-system='echo-then-run bundle exec rspec --exclude-pattern "spec/system/**/*"'
+alias rspec-system-only='echo-then-run bundle exec rspec spec/system/'
 
 # Unaliasing g/git alias coming from zsh git plugin
 # See .functions for new g functionality
