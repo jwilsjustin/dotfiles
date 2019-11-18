@@ -14,7 +14,7 @@ function f() {
 # echo all args then call them
 # https://stackoverflow.com/a/12240862
 function echo-then-run() {
-  echo "$*" ; "$@" ;
+  ansi --bold --white-intense "$*" ; "$@" ;
 }
 
 # https://github.com/ryanwood/dotfiles/blob/d25fff3f5bb22cfaee4aea7eb8aa122621b8b7f7/zsh/functions/g
