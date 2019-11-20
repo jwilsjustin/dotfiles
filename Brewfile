@@ -11,10 +11,12 @@ brew "imagemagick"
 brew "jq"
 brew "mackup"
 brew "memcached", restart_service: true
+brew "node", link: false
 brew "ruby-build"
 brew "rbenv"
 brew "redis", restart_service: true
 brew "telnet"
+brew "tree"
 brew "watch"
 brew "yarn"
 brew "heroku/brew/heroku"
