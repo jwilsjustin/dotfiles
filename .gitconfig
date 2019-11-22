@@ -11,3 +11,6 @@
   clean = git-lfs clean -- %f
 [color]
   ui = auto
+[alias]
+  in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
+  out = log --pretty=oneline --abbrev-commit --graph @{u}..
