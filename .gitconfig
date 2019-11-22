@@ -1,16 +1,17 @@
 [core]
-  excludesfile = /Users/justin/.gitignore_global
-  quotepath = false
+	excludesfile = /Users/justin/.gitignore_global
+	quotepath = false
+	pager = 
 [user]
-  name = Justin Wilson
-  email = justin@moonclerk.com
+	name = Justin Wilson
+	email = justin@moonclerk.com
 [filter "lfs"]
-  smudge = git-lfs smudge -- %f
-  process = git-lfs filter-process
-  required = true
-  clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
 [color]
-  ui = auto
+	ui = auto
 [alias]
-  in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
-  out = log --pretty=oneline --abbrev-commit --graph @{u}..
+	in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
+	out = log --pretty=oneline --abbrev-commit --graph @{u}..
