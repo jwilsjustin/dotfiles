@@ -1,5 +1,14 @@
 #!/bin/bash
 
+function c() {
+  if [ -f "$PWD/bin/rails" ]; then
+    bin/spring stop
+    bin/rails console
+  else
+    ansi --bold --red "Ain't no rails app here"
+  fi
+}
+
 function dotfiles() {
   cd ~/dotfiles
   subl ~/dotfiles
@@ -45,4 +54,12 @@ function ip() {
 function ruby-server() {
   dir=${1:="."}
   ruby -run -e httpd $dir -p 5000
+}
+
+function s() {
+  if [ -f "$PWD/bin/rails" ]; then
+    bin/rails s
+  else
+    ansi --bold --red "Ain't no rails app here"
+  fi
 }
