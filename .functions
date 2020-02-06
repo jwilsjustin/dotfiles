@@ -3,7 +3,7 @@
 function c() {
   if [ -f "$PWD/bin/rails" ]; then
     bin/spring stop
-    bin/rails console
+    bin/rails console "$@"
   else
     ansi --bold --red "Ain't no rails app here"
   fi
@@ -58,8 +58,16 @@ function ruby-server() {
 
 function s() {
   if [ -f "$PWD/bin/rails" ]; then
-    bin/rails s
+    bin/rails s "$@"
   else
     ansi --bold --red "Ain't no rails app here"
+  fi
+}
+
+function t() {
+  if [ -f "$PWD/bin/rspec" ]; then
+    bin/rspec "$@"
+  else
+    ansi --bold --red "Ain't no rspec here"
   fi
 }
