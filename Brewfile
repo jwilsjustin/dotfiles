@@ -8,13 +8,14 @@ tap "stripe/stripe-cli"
 tap "thoughtbot/formulae"
 brew "bat"
 brew "imagemagick"
+brew "jemalloc"
 brew "jq"
 brew "mackup"
-brew "memcached", restart_service: true
+brew "memcached"
 brew "node", link: false
 brew "ruby-build"
 brew "rbenv"
-brew "redis", restart_service: true
+brew "redis"
 brew "telnet"
 brew "tree"
 brew "watch"
