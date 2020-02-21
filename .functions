@@ -71,3 +71,11 @@ function t() {
     ansi --bold --red "Ain't no rspec here"
   fi
 }
+
+function w() {
+  if [ -f "$PWD/bin/webpack-dev-server" ]; then
+    bin/webpack-dev-server "$@"
+  else
+    ansi --bold --red "No binstub for webpack-dev-server"
+  fi
+}
