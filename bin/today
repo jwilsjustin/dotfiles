@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+# Options
+#   --cp Displays and copies entries from today's calendar date
+#   --list Opens the ledger in less
+#   --purge Clears out *everything* in the ledger
+#   --start-over Clears out all entries from today's calendar date
+
+entry="[$(date)] $@"
+echo $entry
+echo $entry >> ~/.today.txt
