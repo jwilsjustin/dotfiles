@@ -6,6 +6,9 @@
 #   --purge Clears out *everything* in the ledger
 #   --start-over Clears out all entries from today's calendar date
 
+# Append to top of file
+# ex -s -c '1i|task goes here' -c x todo.txt
+
 entry="[$(date)] $@"
 echo $entry
 echo $entry >> ~/.today.txt
