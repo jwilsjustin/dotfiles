@@ -12,7 +12,9 @@ brew "jemalloc"
 brew "jq"
 brew "mackup"
 brew "memcached", restart_service: true
+brew "nmap"
 brew "node", link: false
+brew "ranger"
 brew "ruby-build"
 brew "rbenv"
 brew "redis", restart_service: true
