@@ -1,13 +1,14 @@
 #!/bin/bash
 
-alias ll="ls -lahG"
 alias cat="bat" # must 'brew install bat' first
 alias chmox="chmod -x"
-alias notes="$EDITOR ~/Documents/notes"
 alias gl="git log"
 alias gin="git in"
 alias gout="git out"
 alias gs="git status"
+alias h="heroku"
+alias ll="ls -lahG"
+alias notes="$EDITOR ~/Documents/notes"
 alias rspec-no-system='echo-then-run bundle exec rspec --exclude-pattern "spec/system/**/*"'
 alias rspec-system-only='echo-then-run bundle exec rspec spec/system/'
 
