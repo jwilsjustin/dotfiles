@@ -64,6 +64,14 @@ function s() {
   fi
 }
 
+function srb() {
+  if [ -f "$PWD/bin/standardrb" ]; then
+    bin/standardrb "$@"
+  else
+    ansi --bold --red "Ain't no standardrb here"
+  fi
+}
+
 function t() {
   if [ -f "$PWD/bin/rspec" ]; then
     bin/rspec "$@"
