@@ -13,6 +13,7 @@ alias notes="$EDITOR ~/Documents/notes"
 alias resolve-merge-conflicts="git diff --name-only | uniq | xargs $EDITOR"
 alias rspec-no-system='echo-then-run bundle exec rspec --exclude-pattern "spec/system/**/*"'
 alias rspec-system-only="echo-then-run bundle exec rspec spec/system/"
+alias vs="code ."
 alias y="yarn"
 
 # Unaliasing g/git alias coming from zsh git plugin
