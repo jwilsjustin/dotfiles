@@ -2,7 +2,6 @@
 
 function c() {
   if [ -f "$PWD/bin/rails" ]; then
-    bin/spring stop
     bin/rails console "$@"
   else
     ansi --bold --red "Ain't no rails app here"
@@ -14,16 +13,16 @@ function dotfiles() {
   subl ~/dotfiles
 }
 
-# find shorthand
-# https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
-function f() {
-  find . -name "$1" 2>&1 | grep -v 'Permission denied'
-}
-
 # echo all args then call them
 # https://stackoverflow.com/a/12240862
 function echo-then-run() {
   ansi --bold --white-intense "$*" ; "$@" ;
+}
+
+# find shorthand
+# https://github.com/paulirish/dotfiles/blob/master/.functions#L9-L12
+function f() {
+  find . -name "$1" 2>&1 | grep -v 'Permission denied'
 }
 
 # https://github.com/ryanwood/dotfiles/blob/d25fff3f5bb22cfaee4aea7eb8aa122621b8b7f7/zsh/functions/g
@@ -49,6 +48,17 @@ function git-delete-merged-branches() {
 function ip() {
   curl ipinfo.io/$1
   echo ''
+}
+
+# https://stackoverflow.com/a/30029855
+listening() {
+  if [ $# -eq 0 ]; then
+    sudo lsof -iTCP -sTCP:LISTEN -n -P
+  elif [ $# -eq 1 ]; then
+    sudo lsof -iTCP -sTCP:LISTEN -n -P | grep -i --color $1
+  else
+    echo "Usage: listening [pattern]"
+  fi
 }
 
 function ruby-server() {
