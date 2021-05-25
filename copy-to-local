@@ -3,3 +3,7 @@
 for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.pryrc,.zshrc}; do
   cp $file ~/
 done
+
+for file in $(pwd)/sublime-snippets/*.sublime-snippet; do
+  cp $file /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets/
+done

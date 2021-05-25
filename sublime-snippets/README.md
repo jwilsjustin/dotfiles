@@ -1,1 +1,1 @@
-These should be located in `/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets/`
+These should be located in `/Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets`
