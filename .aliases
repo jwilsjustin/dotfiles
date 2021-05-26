@@ -8,6 +8,7 @@ alias gout="git out"
 alias grmc="resolve-merge-conflicts"
 alias gs="git status"
 alias h="heroku"
+alias hive="hivemind" # must 'brew install hivemind' first
 alias ll="ls -lahG"
 alias notes="$EDITOR ~/Documents/notes"
 alias resolve-merge-conflicts="git diff --name-only | uniq | xargs $EDITOR"
