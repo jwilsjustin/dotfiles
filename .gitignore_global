@@ -1,5 +1,9 @@
 my_scripts/*
+dump.rdb
+Procfile.local
+.byebugrc
 .DS_Store
 .env.development.local
-dump.rdb
-Procfile.dev
+.irbrc
+.pryrc
+.standard.yml
