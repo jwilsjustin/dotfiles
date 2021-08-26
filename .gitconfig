@@ -15,3 +15,9 @@
 [alias]
 	in = !git fetch && git log --pretty=oneline --abbrev-commit --graph ..@{u}
 	out = log --pretty=oneline --abbrev-commit --graph @{u}..
+[init]
+	defaultBranch = master
+[credential]
+	helper = osxkeychain
+[pull]
+	ff = only

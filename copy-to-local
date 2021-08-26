@@ -1,5 +1,7 @@
 #!/bin/bash
 
+cp .gitignore_global ~/.gitignore_global
+
 for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.pryrc,.zshrc}; do
   cp $file ~/
 done
