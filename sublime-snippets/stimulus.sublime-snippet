@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+import { Controller } from 'stimulus'
+
+export default class extends Controller {
+  static targets = ['myTarget']
+
+  connect () {
+    $1
+  }
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>stimulus</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
