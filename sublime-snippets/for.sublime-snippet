@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+// Do something 10 times
+for (let i = 0; i < 9; i++) {
+  console.log(i)
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>for</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
