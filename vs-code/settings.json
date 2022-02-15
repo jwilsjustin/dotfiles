@@ -17,6 +17,10 @@
         "**/dist": true,
         "**/package-lock.json": true,
         "storage": true,
+        "*.DS_Store": true,
+        "development.log": true,
+        "test.log": true,
+        ".byebug_history": true
     },
     "workbench.startupEditor": "none",
 }
