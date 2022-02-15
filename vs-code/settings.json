@@ -1,0 +1,21 @@
+{
+	"breadcrumbs.enabled": false,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+	"editor.fontSize": 13,
+    "editor.lightbulb.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 2,
+    "workbench.activityBar.visible": false,
+    "workbench.sideBar.location": "right",
+    "workbench.statusBar.visible": false,
+    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "search.exclude": {
+        "**/vendor/{[^l],?[^ai]}*": true,
+        "**/node_modules": true,
+        "**/dist": true,
+        "**/package-lock.json": true,
+        "storage": true,
+    },
+}
