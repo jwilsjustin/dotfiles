@@ -1,6 +1,7 @@
 my_scripts/*
 dump.rdb
 Procfile.local
+stylelint.config.js
 .byebugrc
 .DS_Store
 .env.development.local
