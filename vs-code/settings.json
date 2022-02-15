@@ -8,7 +8,7 @@
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
     "workbench.statusBar.visible": false,
-    "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
+    // "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
     "security.workspace.trust.untrustedFiles": "open",
 
     "search.exclude": {
@@ -18,4 +18,5 @@
         "**/package-lock.json": true,
         "storage": true,
     },
+    "workbench.startupEditor": "none",
 }

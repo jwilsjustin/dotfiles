@@ -9,3 +9,7 @@ done
 for file in $(pwd)/sublime-snippets/*.sublime-snippet; do
   cp $file /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets/
 done
+
+for file in $(pwd)/vs-code/*.json; do
+  cp $file /Users/justin/Library/Application\ Support/Code/User/
+done

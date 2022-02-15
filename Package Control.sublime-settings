@@ -1,0 +1,38 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Babel",
+		"Elm Syntax Highlighting",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"HTML-CSS-JS Prettify",
+		"Jest",
+		"JSON Reindent",
+		"JsPrettier",
+		"Markdown Table Formatter",
+		"MarkdownPreview",
+		"Mermaid",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pug",
+		"Ruby Slim",
+		"Sass",
+		"SCSS",
+		"SublimeLinter",
+		"Syntax Highlighting for PostCSS",
+		"Tailwind CSS",
+		"Theme - Monokai Pro",
+		"TypeScript Syntax",
+		"Whitespace",
+	],
+	"repositories":
+	[
+		"https://github.com/SublimeText/TailwindCSS",
+	],
+}
