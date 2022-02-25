@@ -31,5 +31,33 @@
   {
     "key": "shift+cmd+a",
     "command": "workbench.action.toggleActivityBarVisibility"
-  }
+  },
+  {
+    "key": "shift+cmd+f",
+    "command": "search.action.openNewEditor"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "-workbench.view.debug",
+    "when": "viewContainer.workbench.view.debug.enabled"
+  },
+  {
+    "key": "shift+cmd+d",
+    "command": "git.clean"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "-notebook.cell.focusInOutput",
+    "when": "notebookCellHasOutputs && notebookEditorFocused"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "-notebook.focusNextEditor",
+    "when": "notebookEditorFocused && notebookOutputFocused"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "-workbench.action.terminal.resizePaneDown",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
 ]
