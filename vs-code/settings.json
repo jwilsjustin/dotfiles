@@ -1,5 +1,6 @@
 {
 	"breadcrumbs.enabled": false,
+    "scss.lint.unknownAtRules": "ignore",
     "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
 	"editor.fontSize": 13,
     "editor.hideCursorInOverviewRuler": true,
@@ -39,5 +40,9 @@
     },
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 25,
-    "tailwindCSS.lint.cssConflict": "ignore"
+    "tailwindCSS.lint.cssConflict": "ignore",
+    "files.associations": {
+        "*.css": "scss"
+    },
+    "editor.occurrencesHighlight": false
 }
