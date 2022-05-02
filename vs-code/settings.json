@@ -14,7 +14,6 @@
     "explorer.decorations.badges": false,
     "workbench.activityBar.visible": false,
     "workbench.sideBar.location": "right",
-    "workbench.statusBar.visible": false,
     "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
     "scm.diffDecorationsGutterWidth": 1,
     "scm.diffDecorations": "gutter",
@@ -47,5 +46,21 @@
     },
     "editor.occurrencesHighlight": false,
     "editor.renderLineHighlight": "none",
-    "standard.run": "onSave"
+    "standard.run": "onSave",
+    "svg.preview.mode": "svg",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "headwind.classRegex": {
+        "html": "\\bclass\\s*[\\=\\:]\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\']",
+        "css": "\\B@apply\\s+([_a-zA-Z0-9\\s\\-\\:\\/]+);",
+        "scss": "\\B@apply\\s+([_a-zA-Z0-9\\s\\-\\:\\/]+);",
+        "javascript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+        "javascriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+        "typescript": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)",
+        "typescriptreact": "(?:\\bclassName\\s*=\\s*[\\\"\\']([_a-zA-Z0-9\\s\\-\\:\\/]+)[\\\"\\'])|(?:\\btw\\s*`([_a-zA-Z0-9\\s\\-\\:\\/]*)`)"
+    },
+    "headwind.prependCustomClasses": true,
+    "headwind.removeDuplicates": true,
+    "headwind.runOnSave": true
 }
