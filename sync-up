@@ -6,3 +6,4 @@ cp /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Pac
 # VS Code
 cp /Users/justin/Library/Application\ Support/Code/User/settings.json ~/dotfiles/vs-code
 cp /Users/justin/Library/Application\ Support/Code/User/keybindings.json ~/dotfiles/vs-code
+cp /Users/justin/Library/Application\ Support/Code/User/snippets/global.code-snippets ~/dotfiles/vs-code
