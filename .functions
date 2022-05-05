@@ -15,7 +15,7 @@ cp_p () {
 
 function dotfiles() {
   cd ~/dotfiles
-  subl ~/dotfiles
+  code ~/dotfiles
 }
 
 # echo all args then call them

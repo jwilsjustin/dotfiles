@@ -1,5 +1,5 @@
 #!/bin/bash
 
-export BUNDLER_EDITOR="subl"
+export BUNDLER_EDITOR="code"
 export GIT_EDITOR="nano"
 export THOR_MERGE="opendiff"

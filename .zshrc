@@ -85,7 +85,7 @@ export PATH=$HOME/dotfiles/bin:$PATH
 if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='nano'
 else
-  export EDITOR='subl'
+  export EDITOR='code'
 fi
 
 # Compilation flags
