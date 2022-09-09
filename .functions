@@ -13,6 +13,14 @@ cp_p () {
   rsync -WavP --human-readable --progress $1 $2
 }
 
+function dev() {
+  if [ -f "$PWD/bin/dev" ]; then
+    bin/dev "$@"
+  else
+    ansi --bold --red "No bin/dev script is present in this directory"
+  fi
+}
+
 function dotfiles() {
   cd ~/dotfiles
   code ~/dotfiles
