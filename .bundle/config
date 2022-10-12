@@ -1,0 +1,9 @@
+---
+BUNDLE_BUILD**PG: "--with-pg-config=/Applications/Postgres.app/Contents/Versions/10/bin/pg_config"
+BUNDLE_GEM**TEST: "false"
+BUNDLE_GEM**CI: "github"
+BUNDLE_GEM**MIT: "true"
+BUNDLE_GEM**COC: "true"
+BUNDLE_GEM**CHANGELOG: "true"
+BUNDLE_GEM\_\_LINTER: "standard"
+BUNDLE_IGNORE_FUNDING_REQUESTS: "true"
