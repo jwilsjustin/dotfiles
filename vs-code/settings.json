@@ -60,7 +60,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "numso.prettier-standard-vscode",
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": false
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -68,9 +70,20 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[ruby]": {
+    "editor.defaultFormatter": "testdouble.vscode-standard-ruby",
+    "editor.formatOnSave": true
+  },
   "ruby.useLanguageServer": true,
   "ruby.format": "standard",
-  "[ruby]": {
-    "editor.formatOnSave": false
-  }
+  "standardRuby.mode": "enableUnconditionally",
+  "standard.validate": [
+    "javascript",
+    "html",
+    "json"
+   ]
 }
