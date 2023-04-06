@@ -59,7 +59,7 @@ function git-delete-merged-branches() {
 }
 
 function ip() {
-  curl ipinfo.io/$1
+  curl -s ipinfo.io/$1 | jq
   echo ''
 }
 
