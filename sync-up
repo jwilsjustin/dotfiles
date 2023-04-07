@@ -8,3 +8,6 @@ cp /Users/justin/Library/Application\ Support/Code/User/settings.json ~/dotfiles
 cp /Users/justin/Library/Application\ Support/Code/User/keybindings.json ~/dotfiles/vs-code
 cp /Users/justin/Library/Application\ Support/Code/User/snippets/global.code-snippets ~/dotfiles/vs-code/snippets
 cp /Users/justin/Library/Application\ Support/Code/User/snippets/javascript.code-snippets ~/dotfiles/vs-code/snippets
+
+# keep a list of current VS Code extensions
+cat ~/.vscode/extensions/extensions.json | jq > ~/dotfiles/vs-code/extensions.json
