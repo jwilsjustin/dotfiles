@@ -11,3 +11,8 @@ cp /Users/justin/Library/Application\ Support/Code/User/snippets/javascript.code
 
 # keep a list of current VS Code extensions
 cat ~/.vscode/extensions/extensions.json | jq > ~/dotfiles/vs-code/extensions.json
+
+# Sync devdocs.io settings
+if [[ -e ~/Downloads/devdocs.json ]]; then
+  cat ~/Downloads/devdocs.json | jq > ~/dotfiles/devdocs.json
+fi
