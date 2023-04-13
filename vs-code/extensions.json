@@ -367,30 +367,6 @@
   },
   {
     "identifier": {
-      "id": "eamodio.gitlens",
-      "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
-    },
-    "version": "13.4.0",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/eamodio.gitlens-13.4.0",
-      "scheme": "file"
-    },
-    "relativeLocation": "eamodio.gitlens-13.4.0",
-    "metadata": {
-      "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
-      "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
-      "publisherDisplayName": "GitKraken",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1679059154060,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "jock.svg",
       "uuid": "4ae6dc82-7981-4f10-bd81-2d72aec37f39"
     },
@@ -517,7 +493,6 @@
     "version": "2023.6.0",
     "location": {
       "$mid": 1,
-      "fsPath": "/Users/justin/.vscode/extensions/ms-python.python-2023.6.0",
       "path": "/Users/justin/.vscode/extensions/ms-python.python-2023.6.0",
       "scheme": "file"
     },
@@ -531,6 +506,54 @@
       "updated": true,
       "isPreReleaseVersion": false,
       "installedTimestamp": 1680715544545,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "eamodio.gitlens",
+      "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
+    },
+    "version": "13.5.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/eamodio.gitlens-13.5.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "eamodio.gitlens-13.5.0",
+    "metadata": {
+      "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+      "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
+      "publisherDisplayName": "GitKraken",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1681148947487,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "denoland.vscode-deno",
+      "uuid": "91881318-cfd0-4905-adb7-f4e431ca1ead"
+    },
+    "version": "3.17.0",
+    "location": {
+      "$mid": 1,
+      "fsPath": "/Users/justin/.vscode/extensions/denoland.vscode-deno-3.17.0",
+      "path": "/Users/justin/.vscode/extensions/denoland.vscode-deno-3.17.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "denoland.vscode-deno-3.17.0",
+    "metadata": {
+      "id": "91881318-cfd0-4905-adb7-f4e431ca1ead",
+      "publisherId": "d9844221-d0e6-438e-adcd-4f37f93f23b4",
+      "publisherDisplayName": "denoland",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1681226487217,
       "preRelease": false
     }
   }
