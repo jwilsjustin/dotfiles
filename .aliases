@@ -11,6 +11,7 @@ alias h="heroku"
 alias hive="hivemind" # must 'brew install hivemind' first
 alias ll="ls -lahG"
 alias notes="$EDITOR ~/Documents/notes"
+alias pt="papertrail"
 alias resolve-merge-conflicts="git diff --name-only | uniq | xargs $EDITOR"
 alias rspec-no-system='echo-then-run bundle exec rspec --exclude-pattern "spec/system/**/*"'
 alias rspec-system-only="echo-then-run bundle exec rspec spec/system/"
