@@ -14,10 +14,12 @@ cp_p () {
 }
 
 function dev() {
-  if [ -f "$PWD/bin/dev" ]; then
+  if [ -f "$PWD/Procfile.local" ]; then
+    foreman start -f Procfile.local
+  elif [ -f "$PWD/bin/dev" ]; then
     bin/dev "$@"
   else
-    ansi --bold --red "No bin/dev script is present in this directory"
+    ansi --bold --red "No bin/dev script or Procfile.local is present in this directory"
   fi
 }
 
