@@ -4,6 +4,8 @@ cp .zshrc ~/.zshrc
 cp .gitignore_global ~/.gitignore_global
 cp .bundle/config ~/.bundle/config
 
+cp ~/dotfiles/vs-code/keybindings.json /Users/justin/Library/Application\ Support/Code/User
+
 for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.pryrc,.zshrc}; do
   cp $file ~/
 done

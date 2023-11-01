@@ -1,0 +1,11 @@
+{
+  "ERB Comment Declaration": {
+    "prefix": "_erb_comment",
+    "body": [
+      "<!--- <% if false %>",
+      "${TM_SELECTED_TEXT}",
+      "<% end %> --->$0",
+    ],
+    "description": "Insert a HTML/ERB combo comment"
+  }
+}

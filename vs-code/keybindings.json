@@ -65,5 +65,13 @@
   {
     "key": "ctrl+-",
     "command": "-workbench.action.navigateBack"
+  },
+  {
+    "key": "cmd+/",
+    "command": "editor.action.insertSnippet",
+    "args": {
+      "name": "ERB Comment Declaration"
+    },
+    "when": "resourceExtname == .erb"
   }
 ]

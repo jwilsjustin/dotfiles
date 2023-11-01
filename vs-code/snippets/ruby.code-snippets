@@ -40,4 +40,25 @@
 			"logger.info request.headers.env.select { |x| x.starts_with?(/[A-Z]/) }.pretty_inspect"
 		]
 	},
+	"stop and pry (pp)": {
+		"scope": "ruby",
+		"prefix": "pp",
+		"body": [
+			"binding.pry$1"
+		]
+	},
+	"stop and pry (ppp)": {
+		"scope": "ruby",
+		"prefix": "ppp",
+		"body": [
+			"require \"pry\"; binding.pry$1"
+		]
+	},
+	"stop and byebug": {
+		"scope": "ruby",
+		"prefix": "bb",
+		"body": [
+			"byebug$1"
+		]
+	}
 }
