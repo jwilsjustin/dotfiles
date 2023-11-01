@@ -1,6 +1,5 @@
 {
   "breadcrumbs.enabled": false,
-  "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
   "editor.fontSize": 13,
   "editor.hideCursorInOverviewRuler": true,
   "editor.inlineSuggest.enabled": true,
@@ -22,7 +21,6 @@
   "standard.run": "onSave",
   "svg.preview.mode": "svg",
   "tailwindCSS.lint.cssConflict": "ignore",
-  "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Monokai Pro (Filter Octagon)",
   "workbench.sideBar.location": "right",
   "workbench.tips.enabled": false,
@@ -49,15 +47,19 @@
     "yarn-error.log": true
   },
   "files.associations": {
-    "*.css": "scss",
+    "*.css": "postcss",
     "*.jb": "ruby"
     // "*.html.erb": "html"
   },
   "files.exclude": {
     "**/spec/cassettes": true
   },
+  "[erb]": {
+    "editor.defaultFormatter": "manuelpuyol.erb-linter",
+    // "editor.formatOnSave": true
+  },  
   "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "numso.prettier-standard-vscode",
@@ -65,25 +67,46 @@
     "editor.formatOnSave": false
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "numso.prettier-standard-vscode",
     "editor.formatOnSave": true
   },
   "[ruby]": {
     "editor.defaultFormatter": "testdouble.vscode-standard-ruby",
     "editor.formatOnSave": true
   },
-  "ruby.useLanguageServer": true,
-  "ruby.format": "standard",
   "standardRuby.mode": "enableUnconditionally",
   "standard.validate": [
     "javascript",
     "html",
     "json"
-   ]
+  ],
+  "rubyLsp.rubyVersionManager": "rbenv",
+  "rubyLsp.formatter": "syntax_tree",
+  "rubyLsp.enableExperimentalFeatures": false,
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": false,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting": true,
+    "hover": true,
+    "inlayHint": true,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": false,
+    "definition": true,
+    "workspaceSymbol": true,
+    "references": true
+  },
+  "workbench.activityBar.visible": false
 }
