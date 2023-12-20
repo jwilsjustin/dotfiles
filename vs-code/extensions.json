@@ -214,30 +214,6 @@
   },
   {
     "identifier": {
-      "id": "testdouble.vscode-standard-ruby",
-      "uuid": "24da9c65-1b65-48c4-8ea9-7e72d8432342"
-    },
-    "version": "0.0.15",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/testdouble.vscode-standard-ruby-0.0.15",
-      "scheme": "file"
-    },
-    "relativeLocation": "testdouble.vscode-standard-ruby-0.0.15",
-    "metadata": {
-      "id": "24da9c65-1b65-48c4-8ea9-7e72d8432342",
-      "publisherId": "eb240735-9e95-4121-8867-ce31c11cfabf",
-      "publisherDisplayName": "Test Double",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1679925611643,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "monokai.theme-monokai-pro-vscode",
       "uuid": "f5d7ffda-c1d6-4070-ba80-803c705a1ee6"
     },
@@ -310,54 +286,6 @@
   },
   {
     "identifier": {
-      "id": "ms-vscode.live-server",
-      "uuid": "4eae7368-ec63-429d-8449-57a7df5e2117"
-    },
-    "version": "0.4.11",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/ms-vscode.live-server-0.4.11",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-vscode.live-server-0.4.11",
-    "metadata": {
-      "id": "4eae7368-ec63-429d-8449-57a7df5e2117",
-      "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1696945036904,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
-      "id": "ms-python.python",
-      "uuid": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5"
-    },
-    "version": "2023.18.0",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/ms-python.python-2023.18.0",
-      "scheme": "file"
-    },
-    "relativeLocation": "ms-python.python-2023.18.0",
-    "metadata": {
-      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
-      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
-      "publisherDisplayName": "Microsoft",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1696945036954,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "numso.prettier-standard-vscode",
       "uuid": "945fe310-535c-4f65-b93d-b93d70401ab8"
     },
@@ -404,78 +332,6 @@
   },
   {
     "identifier": {
-      "id": "mechatroner.rainbow-csv",
-      "uuid": "3792588c-3d35-442d-91ea-fe6a755e8155"
-    },
-    "version": "3.8.0",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/mechatroner.rainbow-csv-3.8.0",
-      "scheme": "file"
-    },
-    "relativeLocation": "mechatroner.rainbow-csv-3.8.0",
-    "metadata": {
-      "id": "3792588c-3d35-442d-91ea-fe6a755e8155",
-      "publisherId": "0d5438b6-325a-4f88-aa28-6192aa2cf2a6",
-      "publisherDisplayName": "mechatroner",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1697997152406,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
-      "id": "eamodio.gitlens",
-      "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
-    },
-    "version": "14.4.1",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/eamodio.gitlens-14.4.1",
-      "scheme": "file"
-    },
-    "relativeLocation": "eamodio.gitlens-14.4.1",
-    "metadata": {
-      "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
-      "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
-      "publisherDisplayName": "GitKraken",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1698287853827,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
-      "id": "shopify.ruby-lsp",
-      "uuid": "ef656a13-3703-477b-9f36-672a0c949b96"
-    },
-    "version": "0.4.13",
-    "location": {
-      "$mid": 1,
-      "path": "/Users/justin/.vscode/extensions/shopify.ruby-lsp-0.4.13",
-      "scheme": "file"
-    },
-    "relativeLocation": "shopify.ruby-lsp-0.4.13",
-    "metadata": {
-      "id": "ef656a13-3703-477b-9f36-672a0c949b96",
-      "publisherId": "1166cb6d-7867-45ca-9a40-f535976a40be",
-      "publisherDisplayName": "Shopify",
-      "targetPlatform": "undefined",
-      "isApplicationScoped": false,
-      "updated": true,
-      "isPreReleaseVersion": false,
-      "installedTimestamp": 1698332629771,
-      "preRelease": false
-    }
-  },
-  {
-    "identifier": {
       "id": "manuelpuyol.erb-linter",
       "uuid": "9981a5b3-cd21-4c3f-98f2-89e531a47215"
     },
@@ -502,15 +358,13 @@
       "id": "bradlc.vscode-tailwindcss",
       "uuid": "4db62a7c-7d70-419c-96d2-6c3a4dc77ea5"
     },
-    "version": "0.10.2",
+    "version": "0.10.3",
     "location": {
       "$mid": 1,
-      "fsPath": "/Users/justin/.vscode/extensions/bradlc.vscode-tailwindcss-0.10.2",
-      "external": "file:///Users/justin/.vscode/extensions/bradlc.vscode-tailwindcss-0.10.2",
-      "path": "/Users/justin/.vscode/extensions/bradlc.vscode-tailwindcss-0.10.2",
+      "path": "/Users/justin/.vscode/extensions/bradlc.vscode-tailwindcss-0.10.3",
       "scheme": "file"
     },
-    "relativeLocation": "bradlc.vscode-tailwindcss-0.10.2",
+    "relativeLocation": "bradlc.vscode-tailwindcss-0.10.3",
     "metadata": {
       "id": "4db62a7c-7d70-419c-96d2-6c3a4dc77ea5",
       "publisherId": "84722833-669b-4c7d-920e-b60e43fae19a",
@@ -519,7 +373,200 @@
       "isApplicationScoped": false,
       "updated": true,
       "isPreReleaseVersion": false,
-      "installedTimestamp": 1698862826892,
+      "installedTimestamp": 1698937731971,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "testdouble.vscode-standard-ruby",
+      "uuid": "24da9c65-1b65-48c4-8ea9-7e72d8432342"
+    },
+    "version": "0.0.16",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/testdouble.vscode-standard-ruby-0.0.16",
+      "scheme": "file"
+    },
+    "relativeLocation": "testdouble.vscode-standard-ruby-0.0.16",
+    "metadata": {
+      "id": "24da9c65-1b65-48c4-8ea9-7e72d8432342",
+      "publisherId": "eb240735-9e95-4121-8867-ce31c11cfabf",
+      "publisherDisplayName": "Test Double",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1700248340401,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "esbenp.prettier-vscode",
+      "uuid": "96fa4707-6983-4489-b7c5-d5ffdfdcce90"
+    },
+    "version": "10.1.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/esbenp.prettier-vscode-10.1.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "esbenp.prettier-vscode-10.1.0",
+    "metadata": {
+      "id": "96fa4707-6983-4489-b7c5-d5ffdfdcce90",
+      "publisherId": "d16f4e39-2ffb-44e3-9c0d-79d873570e3a",
+      "publisherDisplayName": "Prettier",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1700498721362,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "elia.erb-formatter",
+      "uuid": "553d8f7f-122a-42bc-b2b0-8371a779f759"
+    },
+    "version": "0.3.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/elia.erb-formatter-0.3.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "elia.erb-formatter-0.3.0",
+    "metadata": {
+      "id": "553d8f7f-122a-42bc-b2b0-8371a779f759",
+      "publisherId": "d628c529-e8a0-43a3-86ec-078a7b4c3d4f",
+      "publisherDisplayName": "Elia Schito",
+      "targetPlatform": "undefined",
+      "updated": false,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1701268537137,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "mechatroner.rainbow-csv",
+      "uuid": "3792588c-3d35-442d-91ea-fe6a755e8155"
+    },
+    "version": "3.9.0",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/mechatroner.rainbow-csv-3.9.0",
+      "scheme": "file"
+    },
+    "relativeLocation": "mechatroner.rainbow-csv-3.9.0",
+    "metadata": {
+      "id": "3792588c-3d35-442d-91ea-fe6a755e8155",
+      "publisherId": "0d5438b6-325a-4f88-aa28-6192aa2cf2a6",
+      "publisherDisplayName": "mechatroner",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1701503687958,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "shopify.ruby-lsp",
+      "uuid": "ef656a13-3703-477b-9f36-672a0c949b96"
+    },
+    "version": "0.5.4",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/shopify.ruby-lsp-0.5.4",
+      "scheme": "file"
+    },
+    "relativeLocation": "shopify.ruby-lsp-0.5.4",
+    "metadata": {
+      "id": "ef656a13-3703-477b-9f36-672a0c949b96",
+      "publisherId": "1166cb6d-7867-45ca-9a40-f535976a40be",
+      "publisherDisplayName": "Shopify",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1702147178446,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-vscode.live-server",
+      "uuid": "4eae7368-ec63-429d-8449-57a7df5e2117"
+    },
+    "version": "0.4.13",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/ms-vscode.live-server-0.4.13",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-vscode.live-server-0.4.13",
+    "metadata": {
+      "id": "4eae7368-ec63-429d-8449-57a7df5e2117",
+      "publisherId": "5f5636e7-69ed-4afe-b5d6-8d231fb3d3ee",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1702317947882,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "ms-python.python",
+      "uuid": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5"
+    },
+    "version": "2023.22.1",
+    "location": {
+      "$mid": 1,
+      "path": "/Users/justin/.vscode/extensions/ms-python.python-2023.22.1",
+      "scheme": "file"
+    },
+    "relativeLocation": "ms-python.python-2023.22.1",
+    "metadata": {
+      "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+      "publisherId": "998b010b-e2af-44a5-a6cd-0b5fd3b9b6f8",
+      "publisherDisplayName": "Microsoft",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1702505549001,
+      "preRelease": false
+    }
+  },
+  {
+    "identifier": {
+      "id": "eamodio.gitlens",
+      "uuid": "4de763bd-505d-4978-9575-2b7696ecf94e"
+    },
+    "version": "14.6.1",
+    "location": {
+      "$mid": 1,
+      "fsPath": "/Users/justin/.vscode/extensions/eamodio.gitlens-14.6.1",
+      "external": "file:///Users/justin/.vscode/extensions/eamodio.gitlens-14.6.1",
+      "path": "/Users/justin/.vscode/extensions/eamodio.gitlens-14.6.1",
+      "scheme": "file"
+    },
+    "relativeLocation": "eamodio.gitlens-14.6.1",
+    "metadata": {
+      "id": "4de763bd-505d-4978-9575-2b7696ecf94e",
+      "publisherId": "678d198b-9b2e-49d3-96ff-6d801c9575df",
+      "publisherDisplayName": "GitKraken",
+      "targetPlatform": "undefined",
+      "isApplicationScoped": false,
+      "updated": true,
+      "isPreReleaseVersion": false,
+      "installedTimestamp": 1702647670628,
+      "pinned": false,
       "preRelease": false
     }
   }
