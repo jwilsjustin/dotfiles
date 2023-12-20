@@ -2,8 +2,12 @@ puts "Loading methods from #{__FILE__}"
 
 class Object
   def ms
-    self.public_methods - Object.public_methods
+    public_methods - Object.public_methods
   end
+end
+
+def rrr
+  reload!
 end
 
 def where(feature)
@@ -11,5 +15,5 @@ def where(feature)
     File.expand_path("#{feature}.*", base_dir)
   end
   files = Dir.glob(globs)
-  library = files.first
+  files.first
 end
