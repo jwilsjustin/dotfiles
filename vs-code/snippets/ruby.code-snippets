@@ -54,11 +54,11 @@
 			"require \"pry\"; binding.pry$1"
 		]
 	},
-	"stop and byebug": {
+	"stop and break": {
 		"scope": "ruby",
 		"prefix": "bb",
 		"body": [
-			"byebug$1"
+			"require \"debug\"; binding.break$1"
 		]
 	}
 }
