@@ -6,7 +6,7 @@ cp .bundle/config ~/.bundle/config
 
 cp ~/dotfiles/vs-code/keybindings.json /Users/justin/Library/Application\ Support/Code/User
 
-for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.irbrc,.pryrc,.rdbgrc.rb,.zshrc}; do
+for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.irbrc,.rdbgrc.rb,.zshrc}; do
   cp $file ~/
 done
 
