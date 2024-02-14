@@ -106,4 +106,4 @@ done
 unset file
 
 # Load rbenv automatically
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"

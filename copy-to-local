@@ -10,9 +10,9 @@ for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.irbrc,.rdbgrc.rb,.zshrc
   cp $file ~/
 done
 
-for file in $(pwd)/sublime-snippets/*.sublime-snippet; do
-  cp $file /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets/
-done
+# for file in $(pwd)/sublime-snippets/*.sublime-snippet; do
+#   cp $file /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets/
+# done
 
 for file in $(pwd)/vs-code/snippets/*.code-snippets; do
   cp $file /Users/justin/Library/Application\ Support/Code/User/snippets
