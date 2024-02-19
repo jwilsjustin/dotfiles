@@ -1,4 +1,5 @@
 my_scripts/*
+my_files/*
 dump.rdb
 Procfile.local
 .byebugrc
