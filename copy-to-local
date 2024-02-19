@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cp .zshrc ~/.zshrc
+cp .gitconfig ~/.gitconfig
 cp .gitignore_global ~/.gitignore_global
 cp .bundle/config ~/.bundle/config
 

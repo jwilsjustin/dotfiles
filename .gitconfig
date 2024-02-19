@@ -4,7 +4,7 @@
 	pager = 
 [user]
 	name = Justin Wilson
-	email = justin@moonclerk.com
+	email = justin.wilson@leadsimple.net
 [filter "lfs"]
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
