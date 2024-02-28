@@ -1,0 +1,22 @@
+# :gitmoji: subject
+# 
+# body
+# 
+# footer
+#
+# 🐛 | :bug:              | Fix a bug
+# ✅ | :white_check_mark: | Add or update tests
+# ✨ | :sparkles:         | Introduce new features
+# 🚧 | :construction:     | Work in progress
+# 💄 | :lipstick:         | Update the UI
+# ♻️  | :recycle:          | Refactor code
+#
+# See: https://gitmoji.dev/
+# See: https://docs.google.com/document/d/1bXPSOjNnR3kbfVLo9sj4IhqowvOl_cRG81JI7coSFG8/edit?pli=1
+#
+# Most used gitmojis:
+#
+# :recycle: :sparkles: :bug: :white_check_mark: :lipstick: :fire: :construction:
+# :twisted_rightwards_arrows: :ok_hand: :wrench: :card_file_box: :arrow_up:
+# :zap: :adhesive_bandage: :truck: :children_crossing: :ambulance: :loud_sound: 
+# :lock: :art: :label: :memo:

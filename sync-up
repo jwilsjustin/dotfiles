@@ -6,6 +6,9 @@
 # VS Code
 cp /Users/justin/Library/Application\ Support/Code/User/settings.json ~/dotfiles/vs-code
 cp /Users/justin/Library/Application\ Support/Code/User/keybindings.json ~/dotfiles/vs-code
+cp /Users/justin/.gitconfig  ~/dotfiles/.gitconfig
+cp /Users/justin/.gitignore_global  ~/dotfiles/.gitignore_global
+cp /Users/justin/.git-commit-template ~/dotfiles/.git-commit-template
 
 for file in $(pwd)/vs-code/snippets/*.code-snippets; do
   cp $file /Users/justin/Library/Application\ Support/Code/User/snippets/

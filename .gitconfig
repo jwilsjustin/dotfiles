@@ -1,4 +1,5 @@
 [core]
+	editor = code --wait
 	excludesfile = /Users/justin/.gitignore_global
 	quotepath = false
 	pager = 
