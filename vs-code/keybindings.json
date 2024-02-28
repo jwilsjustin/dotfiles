@@ -75,10 +75,6 @@
     "when": "resourceExtname == .erb"
   },
   {
-    "key": "cmd+n", // "cmd+n" on mac
-    "command": "extension.advancedNewFile"
-  },
-  {
     "key": "shift+cmd+c",
     "command": "copyRelativeFilePath"
   }
