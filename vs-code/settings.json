@@ -32,6 +32,7 @@
     "**/dist": true,
     "**/package-lock.json": true,
     "**/tmp": true,
+    "**/vcr_cassettes": true,
     "*.DS_Store": true,
     "app/assets/builds": true,
     "db/migrate": true,
@@ -116,5 +117,7 @@
   "editor.inlineSuggest.suppressSuggestions": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "gitlens.rebaseEditor.ordering": "asc",
+  "editor.accessibilitySupport": "off"
 }
