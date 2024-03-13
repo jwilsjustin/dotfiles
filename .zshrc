@@ -105,5 +105,9 @@ for file in ~/.{exports,aliases,functions}; do
 done
 unset file
 
+if [ -f ~/.secret_functions ]; then
+  [ -r ~/.secret_functions ] && source ~/.secret_functions
+fi
+
 # Load rbenv automatically
 # eval "$(rbenv init -)"

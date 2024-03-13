@@ -12,6 +12,11 @@ for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.irbrc,.pryrc,.rdbgrc.rb
   cp $file ~/
 done
 
+
+if [ -f "$PWD/.secret_functions" ]; then
+  cp $PWD/.secret_functions ~/.secret_functions
+fi
+
 # for file in $(pwd)/sublime-snippets/*.sublime-snippet; do
 #   cp $file /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Snippets/
 # done
