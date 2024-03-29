@@ -86,6 +86,11 @@ function ruby-server() {
   ruby -run -e httpd $dir -p 5000
 }
 
+# http://www.red56.uk/2017/03/26/running-rubocop-on-changed-files/
+function run-rubocop-for-changed-files() {
+  git ls-files -m | xargs ls -1 2>/dev/null | grep '\.rb$' | xargs bundle exec rubocop -a --force-exclusion
+}
+
 function s() {
   if [ -f "$PWD/bin/rails" ]; then
     bin/rails s "$@"
