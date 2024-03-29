@@ -82,35 +82,6 @@
     // "editor.defaultFormatter": "testdouble.vscode-standard-ruby",
     // "editor.formatOnSave": true
   },
-  // "standardRuby.mode": "enableUnconditionally",
-  // "standard.validate": [
-  //   "javascript",
-  //   "html",
-  //   "json"
-  // ],
-  // "rubyLsp.rubyVersionManager": "rbenv",
-  // "rubyLsp.formatter": "syntax_tree",
-  // "rubyLsp.enableExperimentalFeatures": true,
-  // "rubyLsp.enabledFeatures": {
-  //   "codeActions": true,
-  //   "diagnostics": false,
-  //   "documentHighlights": true,
-  //   "documentLink": true,
-  //   "documentSymbols": true,
-  //   "foldingRanges": true,
-  //   "formatting": true,
-  //   "hover": true,
-  //   "inlayHint": false,
-  //   "onTypeFormatting": true,
-  //   "selectionRanges": true,
-  //   "semanticHighlighting": true,
-  //   "completion": true,
-  //   "codeLens": false,
-  //   "definition": true,
-  //   "workspaceSymbol": true,
-  //   "references": true
-  // },
-  "workbench.activityBar.location": "hidden",
   "[postcss]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -119,5 +90,6 @@
   "workbench.iconTheme": "Monokai Pro (Filter Octagon) Icons",
   "extensions.ignoreRecommendations": true,
   "gitlens.rebaseEditor.ordering": "asc",
-  "editor.accessibilitySupport": "off"
+  "editor.accessibilitySupport": "off",
+  "workbench.activityBar.location": "hidden"
 }

@@ -29,10 +29,6 @@
     "when": "terminalFindFocused && terminalProcessSupported || terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "shift+cmd+a",
-    "command": "workbench.action.toggleActivityBarVisibility"
-  },
-  {
     "key": "shift+cmd+f",
     "command": "search.action.openNewEditor"
   },
@@ -79,7 +75,7 @@
     "command": "copyRelativeFilePath"
   },
   {
-    "key": "shift+cmd+h",
+    "key": "ctrl+shift+h",
     "command": "workbench.action.openQuickChat.copilot"
   }
 ]
