@@ -15,7 +15,7 @@ cp_p () {
 
 function dev() {
   if [ -f "$PWD/Procfile.local" ]; then
-    foreman start -f Procfile.local
+    bin/foreman start -f Procfile.local
   elif [ -f "$PWD/bin/dev" ]; then
     bin/dev "$@"
   else
