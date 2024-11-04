@@ -18,6 +18,8 @@ function dev() {
     bin/foreman start -f Procfile.local
   elif [ -f "$PWD/bin/dev" ]; then
     bin/dev "$@"
+  elif [ -f "$PWD/pnpm-lock.yaml" ]; then
+    pnpm dev "$@"
   else
     ansi --bold --red "No bin/dev script or Procfile.local is present in this directory"
   fi
