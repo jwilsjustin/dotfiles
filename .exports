@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export BUNDLER_EDITOR="cursor"
+export DISABLE_SPRING=true
 export GIT_EDITOR="cursor --wait"
 export THOR_MERGE="opendiff"
 export PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
