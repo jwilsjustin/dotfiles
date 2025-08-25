@@ -14,8 +14,10 @@ cp_p () {
 }
 
 function dev() {
-  if [ -f "$PWD/Procfile.local" ]; then
+  if [ -f "$PWD/Procfile.local" ] && [ -f "$PWD/bin/foreman" ]; then
     bin/foreman start -f Procfile.local
+  elif [ -f "$PWD/Procfile.local" ]; then
+    foreman start -f Procfile.local
   elif [ -f "$PWD/bin/dev" ]; then
     bin/dev "$@"
   elif [ -f "$PWD/pnpm-lock.yaml" ]; then
