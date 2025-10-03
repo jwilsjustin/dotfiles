@@ -7,7 +7,6 @@ cp .git-commit-template ~/.git-commit-template
 cp .bundle/config ~/.bundle/config
 
 cp ~/dotfiles/vs-code/keybindings.json /Users/justin/Library/Application\ Support/Code/User
-# cp ~/dotfiles/cursor/keybindings.json /Users/justin/Library/Application\ Support/Cursor/User
 
 for file in $(pwd)/{.aliases,.exports,.functions,.gemrc,.irbrc,.pryrc,.rdbgrc.rb,.zshrc}; do
   cp $file ~/
@@ -24,5 +23,4 @@ fi
 
 for file in $(pwd)/vs-code/snippets/*.code-snippets; do
   cp $file /Users/justin/Library/Application\ Support/Code/User/snippets
-  cp $file /Users/justin/Library/Application\ Support/Cursor/User/snippets
 done
