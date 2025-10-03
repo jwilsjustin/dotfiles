@@ -4,6 +4,7 @@
 # cp /Users/justin/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings ~/dotfiles
 
 # VS Code
+cp ~/.zshrc .zshrc
 cp /Users/justin/Library/Application\ Support/Code/User/settings.json ~/dotfiles/vs-code
 cp /Users/justin/Library/Application\ Support/Code/User/keybindings.json ~/dotfiles/vs-code
 cp /Users/justin/.gitconfig  ~/dotfiles/.gitconfig

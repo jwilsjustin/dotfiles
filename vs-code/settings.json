@@ -9,6 +9,10 @@
   "editor.occurrencesHighlight": "off",
   "editor.overviewRulerBorder": false,
   "editor.renderLineHighlight": "none",
+  "editor.rulers": [{
+    "column": 120,
+    "color": "#2f3143"
+  },],
   "editor.tabSize": 2,
   "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
   "emmet.triggerExpansionOnTab": true,
@@ -26,6 +30,26 @@
   "workbench.tips.enabled": false,
   "workbench.tree.indent": 25,
   "workbench.startupEditor": "none",
+  "rubyLsp.formatter":"auto",
+  "rubyLsp.enabledFeatures": {
+    "codeActions": true,
+    "diagnostics": false,
+    "documentHighlights": true,
+    "documentLink": true,
+    "documentSymbols": true,
+    "foldingRanges": true,
+    "formatting":true,
+    "hover": true,
+    "inlayHint": false,
+    "onTypeFormatting": true,
+    "selectionRanges": true,
+    "semanticHighlighting": true,
+    "completion": true,
+    "codeLens": false,
+    "definition": true,
+    "workspaceSymbol": true,
+    "references": true
+  },
   "search.exclude": {
     "**/vendor/{[^l],?[^ai]}*": true,
     "**/node_modules": true,
@@ -36,6 +60,7 @@
     "*.DS_Store": true,
     "app/assets/builds": true,
     "db/migrate": true,
+    "components/core/db/migrate": true,
     "public/assets": true,
     "public/assets/packs": true,
     "public/packs": true,
@@ -49,8 +74,8 @@
   },
   "files.associations": {
     "*.css": "postcss",
-    "*.jb": "ruby"
-    // "*.html.erb": "html"
+    "*.jb": "ruby",
+    "Caddyfile": "caddyfile"
   },
   "files.exclude": {
     "**/spec/cassettes": true
@@ -91,5 +116,15 @@
   "extensions.ignoreRecommendations": true,
   "gitlens.rebaseEditor.ordering": "asc",
   "editor.accessibilitySupport": "off",
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "asdf"
+  },
+  "githubPullRequests.pullBranch": "never",
+  "rubyLsp.featureFlags": {
+    "all": true
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "gitlens.ai.model": "vscode",
+  "gitlens.ai.vscode.model": "copilot:gpt-4.1"
 }
