@@ -5,6 +5,7 @@ puts "Loading methods from #{__FILE__}"
 IRB.conf[:SAVE_HISTORY] = 2000
 IRB.conf[:HISTORY_FILE] = "~/.irb-history"
 IRB.conf[:USE_AUTOCOMPLETE] = false
+IRB.conf[:AUTO_INDENT] = true
 
 require "awesome_print"
 AwesomePrint.irb! if defined? AwesomePrint

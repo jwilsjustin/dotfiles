@@ -74,6 +74,8 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+eval "$(rbenv init - zsh)"
+
 export PATH=$HOME/dotfiles/bin:$PATH
 
 # export MANPATH="/usr/local/man:$MANPATH"
