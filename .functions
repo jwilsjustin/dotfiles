@@ -1,5 +1,13 @@
 #!/bin/bash
 
+function be() {
+  if [ -f "$PWD/bin/bundle" ]; then
+    bin/bundle exec "$@"
+  else
+    ansi --bold --red "Ain't no bundle here"
+  fi
+}
+
 function c() {
   if [ -f "$PWD/bin/rails" ]; then
     bin/rails console "$@"
@@ -35,7 +43,7 @@ function dotfiles() {
 # echo all args then call them
 # https://stackoverflow.com/a/12240862
 function echo-then-run() {
-  ansi --bold --white-intense "$*" ; "$@" ;
+  ansi --bold --magenta-intense "$*" ; "$@" ;
 }
 
 # find shorthand
@@ -67,6 +75,10 @@ function git-delete-merged-branches() {
 
     git branch -d ${mergedBranch}
   done
+}
+
+function gl() {
+  git log --oneline --graph --decorate "$@"
 }
 
 function ip() {
@@ -113,7 +125,9 @@ function srb() {
 
 function t() {
   if [ -f "$PWD/bin/rspec" ]; then
-    bin/rspec "$@"
+    echo-then-run bin/rspec "$@"
+  elif command -v bundle >/dev/null 2>&1; then
+    echo-then-run bundle exec rspec "$@"
   else
     ansi --bold --red "Ain't no rspec here"
   fi

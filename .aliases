@@ -2,7 +2,6 @@
 
 alias cat="bat" # must 'brew install bat' first
 alias chmox="chmod -x"
-alias gl="git log"
 alias gin="git in"
 alias gout="git out"
 alias grmc="resolve-merge-conflicts"
@@ -21,3 +20,7 @@ alias y="yarn"
 # Unaliasing g/git alias coming from zsh git plugin
 # See .functions for new g functionality
 unalias g
+
+# Unaliasing gl alias coming from zsh git plugin
+# See .functions for new gl functionality
+unalias gl
