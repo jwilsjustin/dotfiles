@@ -8,3 +8,4 @@ Procfile.local
 .irbrc
 .pryrc
 .standard.yml
+.claude/settings.local.json
